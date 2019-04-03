@@ -560,9 +560,9 @@ public:
     stack<int> m_Head ;
     stack<int> m_Min ;
 #pragma endregion
-    1, 2, 3, 4, 5是某栈的压入顺序，序列4, 5, 3, 2, 1
+    //1, 2, 3, 4, 5是某栈的压入顺序，序列4, 5, 3, 2, 1
 #pragma region 栈的压入弹出序列
-    bool IsPopOrder(vector<int> pushV, vector<int> popV) {
+    /*bool IsPopOrder(vector<int> pushV, vector<int> popV) {
         int size = pushV.size();
         int push_index = size - 1;
         int pop_index = 0;
@@ -579,7 +579,7 @@ public:
         {
 
         }
-    }
+    }*/
 #pragma endregion
 
 #pragma region 从上往下打印二叉树
