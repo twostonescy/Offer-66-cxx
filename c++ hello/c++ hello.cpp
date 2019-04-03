@@ -27,10 +27,20 @@ int main()
 
     vector<int> pre = { 1,2,4,7,3,5,6,8 };
     vector<int> vin = { 4,7,2,1,5,3,8,6 };
-
-    ss.printTree(ss.reConstructBinaryTree(pre, vin));
-    int yy = ss.jumpFloorII(2);
+    int hh = 5;
     
+    ss.printTree(ss.reConstructBinaryTree(pre, vin));
+    int yy = ss.Power(2,-3);
+    
+    TreeNode* t1 = new TreeNode(1);
+    t1->left = new TreeNode(2);
+    TreeNode* t2 = new TreeNode(3);
+    t2->left = new TreeNode(1);
+    t2->left->left = new TreeNode(2);
+
+    vector<vector<int>> jk = { {1} };
+
+    ss.printMatrix(jk);
     while (1)
     {
 
