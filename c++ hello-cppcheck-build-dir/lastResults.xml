@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="1.84"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;k&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;k&amp;#039; is assigned a value that is never used." sinceDate="2019/3/6">
+            <location file="c++ hello\A.cpp" line="7"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;k&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;k&amp;#039; is assigned a value that is never used." sinceDate="2019/3/6">
+            <location file="c++ hello\A.cpp" line="14"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;A&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;A&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="2019/3/6">
+            <location file="c++ hello\A.h" line="8"/>
+        </error>
+    </errors>
+</results>

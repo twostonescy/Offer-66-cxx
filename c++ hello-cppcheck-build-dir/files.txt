@@ -1,0 +1,16 @@
+A.a1:Debug|Win32:E:/TestWorkspace/c++ hello/c++ hello/A.cpp
+A.a2:Release|Win32:E:/TestWorkspace/c++ hello/c++ hello/A.cpp
+A.a3:Debug|x64:E:/TestWorkspace/c++ hello/c++ hello/A.cpp
+A.a4:Release|x64:E:/TestWorkspace/c++ hello/c++ hello/A.cpp
+c++ hello.a1:Debug|Win32:E:/TestWorkspace/c++ hello/c++ hello/c++ hello.cpp
+c++ hello.a2:Release|Win32:E:/TestWorkspace/c++ hello/c++ hello/c++ hello.cpp
+c++ hello.a3:Debug|x64:E:/TestWorkspace/c++ hello/c++ hello/c++ hello.cpp
+c++ hello.a4:Release|x64:E:/TestWorkspace/c++ hello/c++ hello/c++ hello.cpp
+head.a1:Debug|Win32:E:/TestWorkspace/c++ hello/c++ hello/head.cpp
+head.a2:Release|Win32:E:/TestWorkspace/c++ hello/c++ hello/head.cpp
+head.a3:Debug|x64:E:/TestWorkspace/c++ hello/c++ hello/head.cpp
+head.a4:Release|x64:E:/TestWorkspace/c++ hello/c++ hello/head.cpp
+pch.a1:Debug|Win32:E:/TestWorkspace/c++ hello/c++ hello/pch.cpp
+pch.a2:Release|Win32:E:/TestWorkspace/c++ hello/c++ hello/pch.cpp
+pch.a3:Debug|x64:E:/TestWorkspace/c++ hello/c++ hello/pch.cpp
+pch.a4:Release|x64:E:/TestWorkspace/c++ hello/c++ hello/pch.cpp
