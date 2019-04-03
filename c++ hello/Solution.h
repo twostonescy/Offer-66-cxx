@@ -80,7 +80,7 @@ public:
 #pragma endregion
 
 #pragma region 两个栈实现队列
-    void push(int node) {
+  /*  void push(int node) {
         stack1.push(node);
     }
 
@@ -99,7 +99,7 @@ public:
         return temp;
     }
     stack<int> stack1;
-    stack<int> stack2;
+    stack<int> stack2;*/
 #pragma endregion
 
 #pragma region 旋转数组
@@ -535,11 +535,51 @@ public:
 #pragma endregion
 
 #pragma region 包含min函数的栈
-
+    void push(int value) {
+        if (m_Head.empty())
+        {
+            m_Head.push(value);
+            m_Min.push(value);
+        }
+        else
+        {
+            m_Head.push(value);
+            m_Min.push(value<m_Min.top()?value:m_Min.top());
+        }
+    }
+    void pop() {
+        m_Head.pop();
+        m_Min.pop();
+    }
+    int top() {
+        return m_Head.top();
+    }
+    int min() {
+        return m_Min.top();
+    }
+    stack<int> m_Head ;
+    stack<int> m_Min ;
 #pragma endregion
-
+    1, 2, 3, 4, 5是某栈的压入顺序，序列4, 5, 3, 2, 1
 #pragma region 栈的压入弹出序列
+    bool IsPopOrder(vector<int> pushV, vector<int> popV) {
+        int size = pushV.size();
+        int push_index = size - 1;
+        int pop_index = 0;
+        for (size_t i = size-push_index-1; i < size; i++)
+        {
+            if (pushV[push_index] == popV[pop_index])
+            {
+                pop_index = i;
+                break;
+            }
+        }
 
+        for (size_t i = 0; i < size-pop_index; i++)
+        {
+
+        }
+    }
 #pragma endregion
 
 #pragma region 从上往下打印二叉树
